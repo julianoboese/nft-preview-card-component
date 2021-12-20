@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(217deg 54% 11%);
+}
+
+.nft-card {
+  height: 100%;
+  width: 350px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: hsl(216deg 50% 16%);
+  box-shadow: 0 30px 2px 15px #0b1627, 0 30px 2px 50px #0c1829;
+}
+
+.images {
+  position: relative;
+  font-size: 0;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.cube-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.view-background {
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: hsl(178deg 100% 50%);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 400ms;
+}
+
+.view-icon {
+  position: absolute;
+  left: 126px;
+  top: 126px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 400ms;
+}
+
+.images:hover .view-background {
+  background-color: hsl(178deg 100% 50%);
+  opacity: 0.5;
+}
+
+.images:hover .view-icon {
+  opacity: 1;
+}
+
+h1 {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  color: hsl(0deg 0% 100%);
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 400ms;
+}
+
+h1:hover {
+  color: hsl(178deg 100% 50%);
+}
+
+p.nft-description {
+  margin-top: 20px;
+  font-size: 18px;
+  color: hsl(215deg 51% 70%);
+}
+
+.nft-value-time {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.nft-value {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 5px;
+  height: 20px;
+  color: hsl(178deg 100% 50%);
+  font-weight: 600;
+}
+
+.nft-time {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 5px;
+  color: hsl(215deg 51% 70%);
+}
+
+hr {
+  border: 1px solid hsl(215deg 32% 27%);
+}
+
+.creator {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 15px 0 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.creator > img {
+  width: 33px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.creator-p {
+  color: hsl(215deg 51% 70%);
+}
+
+.creator-p span {
+  color: hsl(0deg 0% 100%);
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 400ms;
+}
+
+.creator-p span:hover {
+  color: hsl(178deg 100% 50%);
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0 20px;
+  }
+
+  p.nft-description {
+    margin-top: 15px;
+  }
+
+  .nft-value-time {
+    margin: 18px 0 15px;
+  }
+
+  .creator {
+    margin-bottom: 0;
+  }
+}
