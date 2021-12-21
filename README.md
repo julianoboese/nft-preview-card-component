@@ -19,5 +19,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/julianoboese/nft-preview-card-component](ttps://github.com/julianoboese/nft-preview-card-component)
+- Solution URL: [https://github.com/julianoboese/nft-preview-card-component](https://github.com/julianoboese/nft-preview-card-component)
 - Live Site URL: [https://julianoboese.github.io/nft-preview-card-component](https://julianoboese.github.io/nft-preview-card-component)
