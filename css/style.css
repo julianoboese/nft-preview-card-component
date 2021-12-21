@@ -13,7 +13,7 @@ body {
   background-color: hsl(217deg 54% 11%);
 }
 
-main {
+.nft-card {
   height: 100%;
   width: 350px;
   padding: 25px;
