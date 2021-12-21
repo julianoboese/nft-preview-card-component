@@ -14,6 +14,7 @@ Users should be able to:
 ## Solution
 
 ![Solution for the NFT preview card component coding challenge](./screenshot.png)
+![Active states for the NFT preview card component coding challenge](./screenshot-active-states.png)
 ![Mobile design for the NFT preview card component coding challenge](./screenshot-mobile.png)
 
 ### Links
